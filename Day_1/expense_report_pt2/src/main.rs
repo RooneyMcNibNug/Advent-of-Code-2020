@@ -3,14 +3,15 @@ fn main() {
 
     'outer_loop: for x in &v {
         for y in &v {
-            if x + y != 2020 {
-                continue;
-            }
-            else {
-                println!("{}", x * y);
-                break 'outer_loop;
+            for z in &v {
+                if x + y + z != 2020 {
+                    continue;
+                }
+                else {
+                    println!("{}", x * y * z);
+                    break 'outer_loop;
+                }
             }
         }
-    } 
+    }
 }
-
