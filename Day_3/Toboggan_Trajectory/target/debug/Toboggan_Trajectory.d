@@ -1,0 +1,1 @@
+/home/user/Advent-of-Code-2020/Day_3/Toboggan_Trajectory/target/debug/Toboggan_Trajectory: /home/user/Advent-of-Code-2020/Day_3/Toboggan_Trajectory/inputs.txt /home/user/Advent-of-Code-2020/Day_3/Toboggan_Trajectory/src/main.rs
