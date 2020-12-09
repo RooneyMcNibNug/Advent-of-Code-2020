@@ -39,7 +39,7 @@ fn main() {
     file.read_to_string(&mut contents).expect("Unable to read the file");
     
     // println!("{}", contents);
-    
+    // need to add an iterator here! and then search for bools and validity
 
 
 }
